@@ -1,0 +1,180 @@
+/* *COMMON CSS STARTS */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+:root{
+    --firstFont: 'Ubuntu', sans-serif;
+    --secondFont:'Abril Fatface', cursive;
+    --thirdFont:'Ubuntu', sans-serif;
+    --primaryColor:#0f2f44;
+    --secondaryColor:#ffc712;
+    --thirdColor:#8484bf;
+}
+body{
+    font-family: var(--firstFont);
+}
+.container{
+    width: 1179px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.btn{
+    background-color: var(--secondaryColor);
+    color:var(--primaryColor);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 16px 19px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+
+
+/* *COMMON CSS ENDS */
+/* *HEADER STARTS HERE */
+ #Header{
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 19px 0;
+
+
+}
+#Header .welcome,
+#Header .opening{
+    width: 50%;
+}
+#Header .opening{
+    text-align: right;
+}
+
+
+/* *HEADER ENDS HERE */
+/* *NAVBAR STARTS HERE */
+ #Nav{
+    padding: 38px 0;
+    
+ }
+ #Nav .logo{
+    width: 30%;
+ }
+ #Nav .menu{
+    width: 70%;
+    text-align: right;
+ }
+#Nav .menu ul li{
+    display: inline-block;
+    
+ }
+ #Nav .menu ul li a{
+    color:#222222;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    transition: 0.3s;
+ }
+ #Nav .menu ul li:hover a{
+    background-color: #fff9e6;
+    color: var(--secondaryColor);
+ }
+ #Nav .menu ul li span{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    color: #999;
+    cursor: pointer;
+ }
+/* *NAVBAR ENDS HERE */
+
+/* *BANNER STARTS HERE */
+#banner{
+    background-image: url(../images/Bizzency\ \(3\).jpg);
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+
+}
+.banner_cnt{
+    width: 40%;
+}
+.banner_cnt h2{
+    font-weight: 300;
+    font-family: var(--firstFont);
+    color: var(--primaryColor);
+    font-size: 50px;
+    
+}
+.banner_cnt h1{
+    font-weight: 400;
+    font-family: var(--secondFont);
+    font-size: 80px;
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    line-height: 72px;
+}
+.banner_cnt h4{
+    font-weight: 400;
+    font-family: var(--firstFont);
+    font-size: 32px;
+    color: var(--thirdColor);
+    letter-spacing: 15px;
+}
+.banner_cnt p{
+    font-family: var(--thirdFont);
+    color: #444;
+    font-size: 14px;
+    margin: 32px 0;
+
+}
+#banner .btn{
+    background-color: var(--thirdColor);
+    color: white;
+}
+.banner_cnt .videobtn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: var(--thirdColor);
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.163);
+}
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+
+
+
+
+
+/* *BANNER ENDS HERE */
+
+
+
+
+
+
